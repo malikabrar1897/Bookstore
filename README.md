@@ -1,18 +1,5 @@
 # Bookstore XML Validation using DTD and XSD
 
-## DTD File
-
-The DTD defines the structure of the XML:
-
-```xml
-<!ELEMENT bookstore (book+)>
-<!ELEMENT book (title, author, year, price)>
-<!ATTLIST book category CDATA #REQUIRED>
-<!ELEMENT title (#PCDATA)>
-<!ELEMENT author (#PCDATA)>
-<!ELEMENT year (#PCDATA)>
-<!ELEMENT price (#PCDATA)>
-
 ## Files
 - Bookstore.xml
 - Bookstore.xsd
