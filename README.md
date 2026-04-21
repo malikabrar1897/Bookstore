@@ -1,11 +1,12 @@
-# Bookstore XML Validation
+# Bookstore XML Validation using DTD and XSD
 
 ## Files
 - Bookstore.xml
 - Bookstore.xsd
+- bookstore.dtd
 
 ## Description
-This project contains an XML file for a bookstore and its corresponding XSD schema for validation.
+This project demonstrates a bookstore XML file validated using both DTD and XSD.
 
 ## Output Screenshot
 
