@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shopping Cart</h1>
+    </header>
+
+    <!-- Registration -->
+    <section class="form-section">
+        <h2>Register</h2>
+        <form class="form">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Login -->
+    <section class="form-section">
+        <h2>Login</h2>
+        <form class="form">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Catalog -->
+    <section>
+        <h2>Catalog</h2>
+
+        <div class="catalog">
+
+            <div class="card">
+                <h3>Laptop</h3>
+                <p>Price: ₹50000</p>
+                <button onclick="addToCart('Laptop')">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <h3>Mobile</h3>
+                <p>Price: ₹20000</p>
+                <button onclick="addToCart('Mobile')">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <h3>Headphones</h3>
+                <p>Price: ₹3000</p>
+                <button onclick="addToCart('Headphones')">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Cart -->
+    <section>
+        <h2>Cart</h2>
+        <ul id="cart"></ul>
+    </section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
